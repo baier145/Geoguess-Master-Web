@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCrJT5cb4QiAz2xpjW6kZHU98A1BSLl0qc",
+    authDomain: "geoguess-test.firebaseapp.com",
+    databaseURL: "https://geoguess-test.firebaseio.com",
+    projectId: "geoguess-test",
+    storageBucket: "geoguess-test.appspot.com",
+    messagingSenderId: "636915874907",
+    appId: "1:636915874907:web:df9f72b95209c33add537e",
+    measurementId: "G-5H0EN44VQQ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
